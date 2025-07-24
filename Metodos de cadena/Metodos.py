@@ -22,4 +22,5 @@ print("Comienza con 'Hola':", text.startswith("Hola"))  # Verifica si comienza c
 print("Termina con 'planet':", text.endswith("planet"))  # Verifica si termina con 'planet'
 print("Repetir texto:", texto * 2)  # Repite el texto dos veces
 print("Comparar textos:", text1 == text)  # Compara si los textos son iguales
-print("Comparar textos (ignore case):", text1.lower() == text.lower())  # Compara ignorando mayúsculas y minúsculas5
+print("Comparar textos (ignore case):", text1.lower() == text.lower())  # Compara ignorando mayúsculas y minúsculas
+print("Comparar textos (ignore case):", text1.casefold() == text.casefold())  # Compara ignorando mayúsculas y minúsculas de forma más robusta
