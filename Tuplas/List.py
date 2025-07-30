@@ -52,9 +52,34 @@ print(mylist[2:])
 mylist = ['apple','banana','cherry','orange', 'watermelon','kiwi']
 print(mylist[-4:-1])  # Salida: ['cherry', 'orange', 'watermelon']
 """
+#de la puedo verificar si un elemento esta en la lista
+# como tambien puedo agregar un elemento a la lista utilizando Format()
+#que es format sirve para formatear cadenas de texto 
+"""
 mylist = ['apple','banana','cherry','orange', 'watermelon','kiwi']
 x = input("Ingrese el nombre de una fruta: ")
 if x in mylist:
     print("si, {} está en la lista".format(x))
 else:
     print("no, {} no está en la lista".format(x))
+"""
+# De la siguiente manera puedo agregar un elemento a la lista
+"""
+thislist = ['apple','banana','cherry','orange', 'watermelon','kiwi']
+thislist[1] = 'hola'  # Cambia el segundo elemento de la lista
+print(thislist)  # Imprime la lista actualizada
+# De esta manera puedo cambiar un elemento de la lista
+"""
+# De la siguiente manera puedo cambiar un elemento de la lista
+"""
+thislist = ['apple','banana','cherry','orange', 'watermelon','kiwi']
+thislist[1:3] = ['grappe', 'blueberry']  # Cambia los elementos del segundo y tercer índice
+print(thislist)  # Imprime la lista actualizada
+# De esta manera puedo cambiar un elemento de la lista
+"""
+# De la siguiente manera puedo instertar un elemento en una lista en la posicion que yo quiera
+"""
+thislist = ['apple','banana','cherry','orange', 'watermelon','kiwi']
+thislist.insert(2, 'grape')  # Inserta 'grape' en el índice 2
+print(thislist)  # Imprime la lista actualizada
+"""
